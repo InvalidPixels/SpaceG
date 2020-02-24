@@ -7,7 +7,8 @@
         "627fa1e4-f3a3-4633-8dbb-857150ff0a8d",
         "3c37d74c-dc68-4858-b3e2-768f8748b0ff",
         "fab1ec80-9cc6-425a-8da1-9f89d01c225e",
-        "6e645c57-64ba-4e78-8767-6f193e3938d3"
+        "6e645c57-64ba-4e78-8767-6f193e3938d3",
+        "9ff02d0d-e1ce-4a11-80a4-54902ac83f3c"
     ],
     "filterType": "GMObject",
     "folderName": "Resources",

@@ -38,7 +38,10 @@ if (p_health <= 0) {
 	isAlive = false;
 		instance_destroy();
 }
-
+//Building
+if (keyboard_check(ord("B"))){
+	buildingmenu = true;
+}
 
 
 

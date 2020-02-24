@@ -1,3 +1,8 @@
+//Main
+camerawidth = 1024
+cameraheight = 768
+
+
 //-----Movement
 p_speed = 2;
 running = false;
@@ -20,3 +25,10 @@ p_health = 100;
 isAlive = true;
 last_x = x;
 last_y = y;
+//Building
+buildingmenu = false;
+obj_wall.sprite_index = 2;
+topleftxbuild = camerawidth - (camerawidth/2);
+topleftybuild = cameraheight*.6;
+bottomrightx = camerawidth;
+bottomrighty = cameraheight;

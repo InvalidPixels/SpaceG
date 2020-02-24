@@ -29,3 +29,10 @@ draw_text(32, 745, string(p_health));
 if (isAlive = false) {
 	draw_text(x, y, string("You Died!"));
 }
+//Building
+if (buildingmenu = true){
+	
+	draw_rectangle(camerawidth - (camerawidth/2),cameraheight*.6,camerawidth,cameraheight,false )
+	draw_rectangle_color(camerawidth - 50,topleftybuild + 25,camerawidth - 25,topleftybuild + 50,c_red,c_red,c_red,c_red,false)
+	
+}
