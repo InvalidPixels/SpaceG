@@ -25,14 +25,16 @@ draw_text(312, 8, string(fuel));
 //-----Health
 draw_sprite(spr_health, 1, 16, 750);
 draw_text(32, 745, string(p_health));
-//Die
+//-----Die
 if (isAlive = false) {
 	draw_text(x, y, string("You Died!"));
 }
-//Building
+//-----Building
 if (buildingmenu = true){
 	
 	draw_rectangle(camerawidth - (camerawidth/2),cameraheight*.6,camerawidth,cameraheight,false )
 	draw_rectangle_color(camerawidth - 50,topleftybuild + 25,camerawidth - 25,topleftybuild + 50,c_red,c_red,c_red,c_red,false)
 	
+} else {
+	//Do Nothing	
 }

@@ -25,6 +25,9 @@ if (canRun = false) {
 if (keyboard_check(vk_shift) && canRun = true) {
 	running = true;
 }
+if (!keyboard_check(vk_shift) && canRun = true) {
+	running = false;	
+}
 if (running = true && canRun = true) {
 	p_speed = 3;	
 }

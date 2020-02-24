@@ -1,8 +1,6 @@
-//Main
+//-----Main
 camerawidth = 1024
 cameraheight = 768
-
-
 //-----Movement
 p_speed = 2;
 running = false;
