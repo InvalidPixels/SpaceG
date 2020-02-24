@@ -6,3 +6,5 @@ wanderingy = y;
 wandering = true;
 e_health = 10;
 alarm[2] = 125;
+image_index = 0;
+image_speed = 0;

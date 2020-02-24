@@ -29,3 +29,12 @@ if (place_meeting(x, y, obj_player) && alarm[2] <= 0 && obj_player.isAlive = tru
 	obj_player.p_health -= irandom_range(4, 10);
 		alarm[2] += 75;
 }
+//-----Get Hurt
+if (e_health <= 9) {
+	image_index = 1;	
+}
+//-----Die
+if (e_health <= 0) {
+	instance_destroy();
+		instance_create_layer(x, y, "Resources", obj_wood);
+}
