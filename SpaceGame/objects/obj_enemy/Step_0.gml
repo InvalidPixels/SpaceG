@@ -35,6 +35,8 @@ if (e_health <= 9) {
 }
 //-----Die
 if (e_health <= 0) {
+	instance_create_layer(obj_enemy.x,obj_enemy.y,"Resources",obj_blood)
 	instance_destroy();
-		instance_create_layer(x, y, "Resources", obj_wood);
+		
+		
 }

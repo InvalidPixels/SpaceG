@@ -8,6 +8,12 @@ read_1 = false;
 draw_set_font(Tips);
 //-----Resources
 wood = 0;
+crystal = 0;
+stone = 0;
+fiber = 0;
+hide = 0;
+blood = 0;
+fuel = 0;
 //-----Player Stats
 p_health = 100;
 //Alive?
