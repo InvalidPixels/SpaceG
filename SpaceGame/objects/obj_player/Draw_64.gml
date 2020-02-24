@@ -31,10 +31,6 @@ if (isAlive = false) {
 }
 //-----Building
 if (buildingmenu = true){
-	
-	draw_rectangle(camerawidth - (camerawidth/2),cameraheight*.6,camerawidth,cameraheight,false )
-	draw_rectangle_color(camerawidth - 50,topleftybuild + 25,camerawidth - 25,topleftybuild + 50,c_red,c_red,c_red,c_red,false)
-	
-} else {
-	//Do Nothing	
+		draw_rectangle(camerawidth - (camerawidth/2),cameraheight*.6,camerawidth,cameraheight,false )
+	draw_rectangle_color(camerawidth - 50,topleftybuild + 25,camerawidth - 25,topleftybuild + 50,c_red,c_red,c_red,c_red,false)	
 }

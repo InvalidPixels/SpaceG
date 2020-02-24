@@ -45,6 +45,8 @@ if (p_health <= 0) {
 if (keyboard_check(ord("B"))){
 	buildingmenu = true;
 }
-
+if (keyboard_check(vk_escape)) {
+	buildingmenu = false;
+}
 
 

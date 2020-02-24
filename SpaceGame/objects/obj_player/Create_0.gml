@@ -30,3 +30,4 @@ topleftxbuild = camerawidth - (camerawidth/2);
 topleftybuild = cameraheight*.6;
 bottomrightx = camerawidth;
 bottomrighty = cameraheight;
+
