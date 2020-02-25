@@ -7,7 +7,7 @@ running = false;
 canRun = true;
 //-----Base Game
 read_1 = false;
-//Text
+//-----Text
 draw_set_font(GUI);
 //-----Resources
 wood = 0;
@@ -19,11 +19,11 @@ blood = 0;
 fuel = 0;
 //-----Player Stats
 p_health = 100;
-//Alive?
+//-----Alive?
 isAlive = true;
 last_x = x;
 last_y = y;
-//Building
+//-----Building
 buildingmenu = false;
 obj_wall.sprite_index = 2;
 topleftxbuild = camerawidth - (camerawidth/2);
