@@ -8,7 +8,7 @@ canRun = true;
 //-----Base Game
 read_1 = false;
 //Text
-draw_set_font(Tips);
+draw_set_font(GUI);
 //-----Resources
 wood = 0;
 crystal = 0;
